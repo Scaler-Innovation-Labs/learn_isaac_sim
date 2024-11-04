@@ -28,6 +28,7 @@ Isaac Gym also include a basic PPO implementation and a simple RL task system th
 "ninja",
 ```
 6. Switch to `isaacgym` and run `./create_conda_env_rlgpu.sh` to create the conda environment and wait...this can take 15-30 mins depending on your internet speed.
+    NOTE: Run `conda remove -n rlgpu --all` if you have an existing environment with the same name.
 7. You now have a conda env named `rlgpu` with all the dependencies installed. Run `conda activate rlgpu` to activate this environment.
 8. NOTE: For interacting with Isaac Gym, it is necessary to have `rlgpu` environment activated.
 8. To test the Isaac Gym installation, run `cd isaacgym/python/examples && python joint_monkey.py` to watch a demo of a trained agent flexing all its joints.
