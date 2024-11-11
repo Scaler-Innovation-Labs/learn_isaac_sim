@@ -1,5 +1,5 @@
 # Isaac Gym
-(now depcrecated 😞 but can use to recreate and run existing community work)
+(now deprecated 😞 but can use to recreate and run existing community work)
 
 Isaac Gym is NVIDIA's prototype physics simulation environment for reinforcement learning research. Isaac Gym allows developers to experiment with end-to-end GPU accelerated RL for physical systems. Unlike other similar RL gyms, Isaac Gym can run simulations on the GPU and store results in GPU tensors rather than copying them back to CPU and memory. Also provides a Tensor-backed API to access these results, allowing RL observations and rewards calculations to also take place on GPU.
 
