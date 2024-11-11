@@ -71,7 +71,7 @@ Fix: Align the numpy version in `setup.py` and `requires.txt` with the one being
 5. While installating `unitree_rl_gym`, if you have issues due to inconsistent pytorch versions then update the requirement of `isaacgym` to `torch>=1.8.1,<=1.10.0` and install the version required by `unitree_rl_gym` as mentioned in the repository.
 
 
-### References:
+### Isaac Sim/Lab/Gym References:
 - [https://docs.robotsfan.com/isaacgym/install.html](https://docs.robotsfan.com/isaacgym/install.html)
 - [PPO Algorithm - Policy Training for RL](https://medium.com/@danushidk507/ppo-algorithm-3b33195de14a)
 
